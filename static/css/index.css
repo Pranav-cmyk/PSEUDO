@@ -1,0 +1,95 @@
+* {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    font-family: "Playwrite NZ Basic", cursive;
+
+
+}
+
+html,
+body {
+    background-color: #E3E3DC;
+
+}
+
+
+.card-container {
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+
+}
+
+.card {
+    color: #d4a373;
+    font-weight: 700;
+    font-size: 16px;
+
+
+    background-color: #EDEFE4;
+    border: 1px solid #E1E4D9;
+    border-radius: 10px;
+
+    width: 450px;
+    height: 350px;
+
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+    max-width: 450px;
+    max-height: 350px;
+
+    resize: none;
+
+}
+
+.card::placeholder {
+    color: #d4a373;
+    font-size: 14px;
+}
+
+.card:focus {
+    border: 1px solid #d4a373;
+    outline: none;
+}
+
+.card:hover {
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+button {
+    cursor: pointer;
+    border: none;
+    background: none;
+    padding: 5px 10px;
+    border: 1px solid #d4a373;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+
+}
+
+button:hover {
+    opacity: 0.7;
+    transition: all 0.3s ease-in-out;
+}
+
+button:active {
+    opacity: 0.4;
+    transition: all 0.3s ease-in-out;
+}
